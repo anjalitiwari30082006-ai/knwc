@@ -1,4 +1,4 @@
-import numpy as np #AnjaliTiwari
+import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 from sklearn.neighbors import KNeighborsClassifier
