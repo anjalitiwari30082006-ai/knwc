@@ -55,9 +55,9 @@ confidence = pred_proba[0][pred] * 100
 
 # Color based on prediction
 if pred == 0:
-    st.sidebar.success(f"Weather: {weather_label}** "")
+    st.sidebar.success(f"Weather: {weather_label}**)
 else:
-    st.sidebar.info(f"Weather: {weather_label}** ")
+    st.sidebar.info(f"Weather: {weather_label}**)
 
 st.sidebar.metric("Confidence", f"{confidence:.1f}%")
 
