@@ -1,4 +1,4 @@
-import numpy as np sanjaliTiwari
+import numpy as np anjali Tiwari
 
 import matplotlib.pyplot as plt
 
